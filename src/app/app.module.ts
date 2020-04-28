@@ -11,8 +11,7 @@ import { AchievementsComponent } from './achievements/achievements.component';
 import { BlogComponent } from './blog/blog.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ContentComponent } from './content/content.component';
-import { ResourcesComponent } from './resources/resources.component';
-import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { ExploreComponent } from './explore/explore.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +24,7 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     BlogComponent,
     SidenavComponent,
     ContentComponent,
-    ResourcesComponent,
-    ErrorpageComponent
+    ExploreComponent
   ],
   imports: [
     BrowserModule,

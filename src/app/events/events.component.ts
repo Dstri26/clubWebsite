@@ -1,24 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-events',
+  templateUrl: './events.component.html',
+  styleUrls: ['./events.component.css']
 })
-export class HomeComponent implements OnInit {
+export class EventsComponent implements OnInit {
 
   loadScripts() {
     const dynamicScripts = [
       "assets/js/jquery.min.js",
       "assets/js/jquery.easing.1.3.js",
+      "assets/js/bootstrap.min.js",
       "assets/js/jquery.waypoints.min.js",
       "assets/js/jquery.flexslider-min.js",
-      "assets/js/jquery.countTo.js",
-      "assets/js/bootstrap.min.js",
       "assets/js/sticky-kit.min.js",
       "assets/js/owl.carousel.min.js",
+      "assets/js/jquery.countTo.js",
       "assets/js/main.js",
-      
+      "assets/js/modernizr-2.6.2.min.js",
       
     ];
     for (let i = 0; i < dynamicScripts.length; i++) {

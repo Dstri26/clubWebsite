@@ -6,8 +6,8 @@ import { AchievementsComponent } from './achievements/achievements.component';
 import { BlogComponent } from './blog/blog.component';
 import { ProjectComponent } from './project/project.component';
 import { TeamComponent } from './team/team.component';
-import { ErrorpageComponent } from './errorpage/errorpage.component';
-import { ResourcesComponent } from './resources/resources.component';
+import {ExploreComponent} from './explore/explore.component';
+import { EventsComponent } from './events/events.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -18,7 +18,8 @@ const routes: Routes = [
   {path:'path',component:ProjectComponent},
   {path:'team',component:TeamComponent},
   {path:'project',component:ProjectComponent},
-  {path:'resources',component:ResourcesComponent}
+  {path:'events',component:EventsComponent},
+  {path:'explore',component:ExploreComponent}
 ];
 
 @NgModule({
