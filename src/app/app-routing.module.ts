@@ -8,6 +8,7 @@ import { ProjectComponent } from './project/project.component';
 import { TeamComponent } from './team/team.component';
 import {ExploreComponent} from './explore/explore.component';
 import { EventsComponent } from './events/events.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path:'team',component:TeamComponent},
   {path:'project',component:ProjectComponent},
   {path:'events',component:EventsComponent},
+  {path:'register',component:RegisterComponent},
   {path:'explore',component:ExploreComponent}
 ];
 

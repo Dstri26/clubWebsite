@@ -12,6 +12,7 @@ import { BlogComponent } from './blog/blog.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ContentComponent } from './content/content.component';
 import { ExploreComponent } from './explore/explore.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ExploreComponent } from './explore/explore.component';
     BlogComponent,
     SidenavComponent,
     ContentComponent,
-    ExploreComponent
+    ExploreComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
