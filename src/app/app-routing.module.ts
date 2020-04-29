@@ -9,6 +9,7 @@ import { TeamComponent } from './team/team.component';
 import {ExploreComponent} from './explore/explore.component';
 import { EventsComponent } from './events/events.component';
 import { RegisterComponent } from './register/register.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path:'project',component:ProjectComponent},
   {path:'events',component:EventsComponent},
   {path:'register',component:RegisterComponent},
+  {path:'nl',component:NewsletterComponent},
   {path:'explore',component:ExploreComponent}
 ];
 
