@@ -41,7 +41,7 @@ header {
     transition: all 0.1s ease-in;
 }
 .card:hover {
-    top: -10px;
+    top: -2px;
     border:2px solid #FFC300;
     box-shadow: 0 4px 5px #FFC300;
 }
