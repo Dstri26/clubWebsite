@@ -10,10 +10,10 @@ import { ProjectComponent } from './project/project.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { BlogComponent } from './blog/blog.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { ContentComponent } from './content/content.component';
 import { ExploreComponent } from './explore/explore.component';
 import { RegisterComponent } from './register/register.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { FieldsComponent } from './fields/fields.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +25,10 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     AchievementsComponent,
     BlogComponent,
     SidenavComponent,
-    ContentComponent,
     ExploreComponent,
     RegisterComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    FieldsComponent
   ],
   imports: [
     BrowserModule,

@@ -109,7 +109,7 @@ section .section-title {
 }
 
 .backside .card a {
-    font-size: 18px;
+    font-size: 15px;
     color: #007b5e !important;
 }
 
@@ -122,4 +122,7 @@ section .section-title {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+.card-body{
+    padding:15px;
 }
