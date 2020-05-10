@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ParticlesConfig } from './particles-config';
+
+declare let particlesJS: any;
 
 @Component({
   selector: 'app-home',
@@ -18,8 +21,8 @@ export class HomeComponent implements OnInit {
       "assets/js/sticky-kit.min.js",
       "assets/js/owl.carousel.min.js",
       "assets/js/main.js",
-      
-      
+
+
     ];
     for (let i = 0; i < dynamicScripts.length; i++) {
       const node = document.createElement('script');
@@ -36,6 +39,10 @@ export class HomeComponent implements OnInit {
    }
 
   ngOnInit(): void {
+    this.invokeParticles();
+  }
+  public invokeParticles(): void {
+    particlesJS('particles-js', ParticlesConfig, function() {});
   }
 
 }
