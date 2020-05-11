@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
 
   loadScripts() {
     const dynamicScripts = [
+      "assets/js/loader.js",
       "assets/js/jquery.min.js",
       "assets/js/jquery.easing.1.3.js",
       "assets/js/jquery.waypoints.min.js",
