@@ -33,12 +33,12 @@
   height: 100vh;
   position: relative;
   display: block;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 .loader{
   position: absolute;
   left:30%;
-  top:15%;
+  top:20%;
   width: 600px;
 
 }
